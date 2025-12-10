@@ -28,7 +28,7 @@ from zipfile import ZipFile
 from io import BytesIO
 
 # Configuration
-REPO_URL = "https://github.com/wetwi/claude-agent"
+REPO_URL = "https://github.com/Tolerable/claude-agent"
 REPO_ZIP = f"{REPO_URL}/archive/refs/heads/main.zip"
 DEFAULT_DIR = "claude-agent"
 
