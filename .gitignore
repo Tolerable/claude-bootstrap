@@ -1,0 +1,75 @@
+# ============================================
+# MASTER .gitignore TEMPLATE - APPLY TO ALL REPOS
+# ============================================
+# BLACK: Merge this into EVERY repo's .gitignore
+# Keep existing entries, ADD these if missing
+# ============================================
+
+# Secrets and keys - NEVER COMMIT
+.env
+.env.*
+*.local
+keystore.json
+*_keys.json
+db_keys.json
+config.py
+collab_config.json
+credentials.json
+secrets.json
+*.pem
+*.key
+
+# Backup files (numbered versions)
+*-[0-9][0-9][0-9][0-9].*
+*-[0-9][0-9][0-9][0-9]-*.*
+
+# Old version/archive folders
+sandbox_versions/
+_archive/
+_backup*/
+backups/
+old/
+deprecated/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Netlify
+.netlify/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# ============================================
+# END MASTER TEMPLATE
+# ============================================
